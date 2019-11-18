@@ -70,18 +70,6 @@
             padding: 10px;
         }
        
-        .student-container {
-        width: 20%;
-        margin: 0 10px;
-        text-align: center;
-        display: inline-block;
-        font-size: small;
-         }
-
-        .student-container p {
-        margin: 10px 0;
-        }
-
         .side-bar {
         padding: 20px;
         width: 40%;
@@ -89,18 +77,34 @@
         position: relative;
         top: 10px;
   }
-        .bar-content {
-          float: right;
+      .student-container {
+        width: 30%;
+        margin: 0 10px;
+        text-align: center;
+        display: inline-block;
         }
 
-        #table-title {
-          text-align: center;
-        }
+      .student-container p {
+        margin: 10px 0;
+      }
 
-        #tabela-resumo {
-          padding: 20px;
-        }
-               
+      #student-testimonial {
+        padding: 0em 30px 6em;
+      }
+
+      #student-testimonial-wrapper {
+        margin: auto;
+        width: 80%;
+      }
+
+      .titulo-central {
+        text-align: center;
+      }
+
+      #depoimentos, #tabela-preços {
+        padding:15px;
+              }
+ 
     </style>
 </head>
 <body>
@@ -127,84 +131,58 @@
                   <a href="#bar-banzai">Bar Banzai</a>
                   <a href="#maletta">Maletta </a>
                   <a href="#bar-do-cafe">Café Cultura</a>
-                  <a href="#tabela-resumo"> Preços e reviews</a>
+                  <a href="#tabela-bares"> Preços e reviews</a>
                 </ul>
         </nav>
     </section>
     </header>
+
     <article class="main-article">
   
-        <section class="bar-content"> 
-         <h2 id="bar-banzai">1. Bar Banzai</h2>
+         <section id="banzai"> 
+         <h2 id="banzai-title">1. Bar Banzai</h2>
+          <div id="banzai-container">
           <p >Barato, muita mesa, plano, agradabilíssimo. Tem até garotas de vez
           em quando. Certamente é o melhor bar de Belo Horizonte. Às vezes rola
           até barraco. A comida é arriscada. Fica lotado algumas vezes. Banheiro
           magnífico. Isso é o Banzai. 
          </p>
          <p><strong>Endereço:</strong></p>
-         <img class="picture" src="img/bar-banzai.jpg" alt="Foto bar Banzai" width="200px">
-        
-         <div class="student-container">
-            <img class="picture" src="./img/lucas-albuquerque.jpeg"
-                      alt="Foto de Lucas Albuquerque" width="100px">
-                      <p>
-                        <em>"Eu trabalho com Marketing e não tinha nenhuma formação ou experiência na área e consegui entrar na Trybe para me tornar desenvolvedor de software."</em> <br>
-                      </p>
-                      <h4 class="letra-quali">
-                        <strong>Lucas Albuquerque</strong> <br>
-                        ‍Cliente
-                      </h4>
-                    </div>   
-        
+        </div>
+        <div id="banzai-img">
+        <img class="picture" src="img/bar-banzai.jpg" alt="Foto bar Banzai" width="200px">
+        </div> 
         </section>
          
 
-        <section class="bar-content"> 
-        <h2 id="maletta">2. Maletta</h2>
+        <section id="maletta"> 
+        <h2 id="maletta-title">2. Maletta</h2>
+        <div id="maletta-container">
         <p>orem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
         </p>
-        <img class="picture" src="img/bar-da-cacia.jpg" alt="Foto do bar da
-        cácia" width="400px">
-        
-        <div class="student-container">
-            <img class="picture" src="./img/Joao-rosa.jpeg" alt="Foto de
-            João Rosa" width="100px">
-            <p>
-              <em>"Imagino que há muito tempo já teve seu charme. Caro. Certamente o mais gentrificado. Não pode fumar. Não gosto.."</em> <br>
-            </p>
-            <h4 class="letra-quali">
-              <strong>João Rosa</strong> <br>
-              ‍Cliente 
-            </h4>
-          </div>
+        <p><strong>Endereço:</strong></p>
+        </div>
+        <div id="maletta-img">
+        <img class="picture" src="img/maletta.jpg" alt="Foto do Maletta" width="400px">
+        </div>
 
-        </section>
+       </section>
 
-        <section id="bar-do-cafe"> 
-        <h2>3. Café Cultura</h2>
+        <section id="cafe-cultura"> 
+        <h2 id="cultura-title">3. Café Cultura</h2>
+        <div id="cultura-container">
         <p>orem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
           </p>
-
+        </div>
+        <div id="cultura-img">
         <img class="picture" src="img/Cafe.jpg" alt="foto do café cultura"
         width="400px">
+       </div>
+      </section> 
 
-        <div class="student-container">
-        <img class="picture" src="./img/lucas-martins.jpeg"
-        alt="Foto de Lucas Martins" width="100px">
-        <p>
-          <em>"Café cultura bar é melhor opção de bar no centro de bh se vc não curte copo sujo. o local é agradável, bem decorado e tem uma excelente playlist (tocam rock, mpb e samba, nada couver!!). único defeito é que a cozinha fecha cedo (cerca de 11h da noite). o preço é a média de preços da savassi"</em> <br>
-        </p>
-        <h4 class="letra-quali">
-          <strong>Lucas Martins</strong> <br>
-          ‍Morador do Centro
-        </h4>
-      </div>
-
-            
-               </section> 
-        <section id="tabela-resumo">
-          <h2 id="table-title">Ainda indeciso? Simplificamos!</h2>
-
+        <section id="tabela-bares">
+        <div id="tabela-preços">
+        <h2 class="titulo-central"> Ainda indeciso? Simplificamos!</h2>
             <div class="comparison">
 
                 <table>
@@ -317,23 +295,56 @@
                       <td><span class="tickblue">✔</span></td>
                       <td></td>
                     </tr>
-                   
-                  </tbody>
+                                     </tbody>
                 </table>
               </div>
+            </div>
+        </section>
+        
+        <section>
+        <div id="depoimentos">
 
+        <h2 class="titulo-central">A voz do povo</h2>
+
+        <div id="student-testimonial">
+        <div id="student-testimonial-wrapper">
+                                    <div class="student-container">
+                        <img class="picture" src="./img/lucas-albuquerque.jpeg" alt="Foto de Lucas Albuquerque" width="100px">
+                        <p> <em>"Eu trabalho com Marketing e não tinha nenhuma formação ou experiência na área e consegui entrar na Trybe para me tornar desenvolvedor de software."</em> <br>
+                                    </p>
+                                    <h4 class="letra-quali">
+                                      <strong>Lucas Albuquerque</strong> <br>
+                                      ‍Cliente
+                                    </h4>
+                                  </div>  
+                                  <div class="student-container">
+                                      <img class="picture" src="./img/Joao-rosa.jpeg" alt="Foto de
+                                      João Rosa" width="100px">
+                                      <p>
+                                        <em>"Imagino que há muito tempo já teve seu charme. Caro. Certamente o mais gentrificado. Não pode fumar. Não gosto.."</em> <br>
+                                      </p>
+                                      <h4 class="letra-quali">
+                                        <strong>João Rosa</strong> <br>
+                                        ‍Cliente 
+                                      </h4>
+                                    </div>
+                                    <div class="student-container">
+                                        <img class="picture" src="./img/lucas-martins.jpeg"
+                                        alt="Foto de Lucas Martins" width="100px">
+                                        <p>
+                                          <em>"Café cultura bar é melhor opção de bar no centro de bh se vc não curte copo sujo. o local é agradável, bem decorado e tem uma excelente playlist (tocam rock, mpb e samba, nada couver!!). único defeito é que a cozinha fecha cedo (cerca de 11h da noite). o preço é a média de preços da savassi"</em> <br>
+                                        </p>
+                                        <h4 class="letra-quali">
+                                          <strong>Lucas Martins</strong> <br>
+                                          ‍Morador do Centro
+                                        </h4>
+                                      </div>
+            </div>
+          </div>
+        </div>
         </section>
 
-
-        <aside class="side-bar">
-                
-            </aside>   
-                                                           
-                       
-
-                   
-
-      </aside>    
+                          
 
 
 
