@@ -20,7 +20,7 @@
             background-size: cover;
             height: 200px;
             background-color: antiquewhite;
-        }
+                    }
         
         .navbar {
             overflow: hidden;
@@ -67,12 +67,8 @@
             padding: 10px;
         }
         
-        .lateral {
-            padding: 20px;
-            width: 30%;
-            float: right;
-            position: absolute;
-            top: 10px;
+        .lista-bares {
+          margin-left: 15px;
         }
         
         .student-container {
@@ -156,17 +152,33 @@
 <body>
     <header class="header">
         <section class="header-content">
-            <h1 class="main-title">Rolê Show: os melhores bares do centro de BH  </h1>
-            <p class="intro-content">Estamos cansados de escutar que BH é uma <em>roça
+            <h1 class="main-title">Rolê Show: os melhores bares do centro de BH
+            </h1>
+            <div class="intro-content">
+            <p>Estamos cansados de escutar que BH é uma <em>roça
              grande</em> e que a nossa praia é o <strong>BAR</strong>.
                 <br> Sejamos sinceros: <a href="https://bhaz.com.br/2017/10/29/bh-bares-belo-horizonte-estudo/">acharam
             certo.</a>
                 <br> Para viver o melhor que o centro é capaz de oferecer, fizemos o guia <strong>Rolê Show: os melhores bares do centro de BH</strong>.
-                <br> Completo, reunimos aqui apenas os (melhores) bares do centro: nada de Savassi, Lourdes e Buritis.
+                <br> Completo, reunimos aqui apenas os (melhores) bares do
+                centro: nada de Savassi, Lourdes e Buritis. <br>
+                Aliás, as melhores regiões para beber são (do melhor para o pior):<br>
                 <br>
-                <strong> Aqui o negócio é cerveja 
+                <div class="lista-bares">
+                <ol id="lista-bares" type="1">
+                  <li> Centro </li>
+                  <li> Zona Leste</li>
+                  <li> Centro-sul</li>
+                  <li> Barreiro</li>
+                  <li> Pampulha</li>
+                  <li> Zona Oeste</li>
+                </ol>
+                </div>
+                <br>
+                <strong> Enfim, aqui o negócio é cerveja 
             barata, prosa boa e gente como a gente! </strong>
             </p>
+          </div>
 
         </section>
         <section class="navbar">
@@ -203,7 +215,13 @@
         <section id="maletta">
             <h2 id="maletta-title">2. Maletta</h2>
             <div id="maletta-container">
-                <p>Tradicional edifício-galeria no Centro da cidade famoso pelos bares e sebos. Conhecido como centro da boemia na capital, encontra-se livrarias e lojas de discos antigos durante o dia e à noite torna-se local de encontros de Couchsurfers e jovens nos bares modernos do segundo piso.
+                <p>Tradicional edifício-galeria no Centro da cidade famoso pelos
+                bares e sebos. Conhecido como centro da boemia na capital,
+                encontra-se livrarias e lojas de discos antigos durante o dia e
+                à noite torna-se local de encontros de Couchsurfers e jovens nos
+                bares modernos do segundo piso. No entanto, há muito tempo já teve
+                seu charme. Caro. Certamente o mais
+                gentrificado. Não pode fumar.
                 </p>
                 <br>
                 <ul>
@@ -242,7 +260,7 @@
             <div id="tabela-preços">
                 <div class="comparison">
 
-                    <table>
+                    <table id="tabela-container">
                         <thead>
                             <tr>
                                 <th class="tl tl2"></th>
@@ -361,7 +379,7 @@
         <section>
             <div id="depoimentos">
 
-                <h2 class="titulo-central">A voz do povo</h2>
+                <h3 class="titulo-central">A voz do povo</h3>
 
                 <div id="student-testimonial">
                     <div id="student-testimonial-wrapper">
