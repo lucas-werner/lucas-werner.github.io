@@ -8,4 +8,4 @@ for (let i = 0; i < n; i++) {
     console.log(j + o);
     o += '*';
     j = j.substr(1);
-} 
+}
