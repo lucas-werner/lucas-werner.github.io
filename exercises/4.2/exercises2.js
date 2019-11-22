@@ -1,6 +1,9 @@
-let n = 5,
-    o = '';
+let n = 5
+let construtor = [];
+
 for (let i = 0; i < n; i++) {
-    console.log(o);
-    o += '*';
+    construtor.push("*")
+    let linha = construtor.join("")
+    console.log(linha)
 }
+

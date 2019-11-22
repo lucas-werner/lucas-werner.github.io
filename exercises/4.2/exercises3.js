@@ -1,11 +1,8 @@
-let n = 5,
-    j = ' ',
-    o = '*';
-for (let i = 0; i < n - 2; i++) {
-    j += ' ';
-}
+let n = 5;
+let construtor = [];
+
 for (let i = 0; i < n; i++) {
-    console.log(j + o);
-    o += '*';
-    j = j.substr(1);
+    for (let j = 1; j >= i; j++)
+    
+    construtor.push(" ")
 }
