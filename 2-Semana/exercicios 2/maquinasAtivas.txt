@@ -1,7 +1,0 @@
-
-Starting Nmap 7.60 ( https://nmap.org ) at 2019-11-10 14:19 -03
-Nmap scan report for lucaswerner-Inspiron-3583 (192.168.25.11)
-Host is up (0.00013s latency).
-All 1000 scanned ports on lucaswerner-Inspiron-3583 (192.168.25.11) are closed
-
-Nmap done: 1 IP address (1 host up) scanned in 0.23 seconds
