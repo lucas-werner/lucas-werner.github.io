@@ -1,0 +1,51 @@
+body {
+    background-color: cornsilk;
+}
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.paleta-de-cores{
+    padding: 10px;
+}
+.tinta {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border: solid white;
+}
+#black {
+    background-color: black;
+    border: solid red;
+}
+#red {
+    background-color:rgb(206, 97, 97);
+}
+#blue {
+    background-color: rgb(19, 133, 148);
+}
+#green {
+    background-color: rgb(27, 99, 27);
+}
+.paleta-de-cores {
+    display: flex;
+    justify-content: center;
+}
+#grid {
+    display: grid;
+    justify-content: center;
+	grid-template-columns: 40px 40px 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px 40px;
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
+}
+.pixel {
+    border: 1px solid;
+    background-color: white;
+}
+
+#grid-container {
+    display: flex;
+    justify-content: center;
+}
