@@ -7,7 +7,4 @@ estadosList.forEach(estado => {
   option = new Option(estado, estado.toLowerCase());
   estadosSelect.options[estadosSelect.options.length] = option;
 });
-
-
-
 }
