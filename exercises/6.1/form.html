@@ -8,8 +8,41 @@
   <title>Document</title>
 </head>
 <body>
-  <fieldset></fieldset>
-  
-
+  <form>
+  <fieldset>
+    <legend>Formulário de Currículo</legend>
+    <div>
+    <label for="">Nome: </label>
+    <input type="text" required="required" maxlength="40" placeholder="digite
+    seu nome"
+    name="nome">
+  </div>
+  <div>
+    <label for="">Email</label>
+    <input type="email" required="required" maxlength="50" name="email"
+    placeholder="digite seu email" id="email">
+  </div>
+  <div>
+    <label for="">CPF: </label>
+    <input type="text" required="required" maxlength="14"
+    pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="123.456.789-00">
+  </div>
+  <div>
+    <label for="">Endereço: </label>
+    <input type="text" maxlength="200" required="required" name="endereço">
+  </div>
+  <div>
+    <label for="">Cidade: </label>
+    <input type="text" required="required" maxlength="28" name="cidade">
+  </div>
+  <div>
+    <label for="">Estado: </label>
+    <select required="required" name="estado" id="estado">
+        <option selected='' value=''> Selecione</option>
+    
+  </div>
+  </fieldset>
+</form>
+<script src="script.js"></script>
 </body>
 </html>
