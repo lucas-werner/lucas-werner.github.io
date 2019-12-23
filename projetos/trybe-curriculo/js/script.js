@@ -29,3 +29,33 @@ const hubsList = ['Selecione', 'Belo Horizonte-MG', 'São Paulo-SP', 'Florianóp
      
     }
   });
+
+  var picker = new Pikaday({
+    field: document.getElementById('datepicker'),
+    format: 'D/M/YYYY',
+    yearRange: "1960:2002",
+    toString(date, format) {
+          const day = date.getDate();
+        const month = date.getMonth() + 1;
+        const year = date.getFullYear();
+        return `${day}/${month}/${year}`;
+    },
+    parse(dateString, format) {
+        const parts = dateString.split('/');
+        const day = parseInt(parts[0], 10);
+        const month = parseInt(parts[1], 10) - 1;
+        const year = parseInt(parts[2], 10);
+        return new Date(year, month, day);
+    }
+});
+
+new window.JustValidate('.cv', {
+  Messages: {
+    required: 'The field is required',
+    email: 'Please, type a valid email',
+    maxLength: 'The field must contain a maximum of :value characters',
+    minLength: 'The field must contain a minimum of :value characters',
+    password: 'Password is not valid',
+    remote: 'Email already exists'
+  },
+});
