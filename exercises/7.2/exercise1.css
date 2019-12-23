@@ -1,7 +1,10 @@
 body {
-
+  font-size: 1.25em;
+  padding: 5px;
+  
 }
 h1 {
+  font-size: 1em;
 
 }
 h2 {
@@ -13,5 +16,5 @@ img {
 }
 
 figure {
-	margin: 0;
+	margin: 5px auto;
 }
