@@ -1,4 +1,4 @@
-const assert = require('assert')
+// const assert = require('assert')
 
 const alex = {
     name: "Alex",
@@ -15,6 +15,7 @@ const gunnar = {
 }
 
 // complete a assinatura da função abaixo
-const personLikes = ({name, age, likes}) => `${name} is ${age} years old and likes ${likes.join(", ")}.`
-assert.equal(personLikes(alex), "Alex is 26 years old and likes fly fishing.")
-assert.equal(personLikes(gunnar), "Gunnar is 30 years old and likes hiking, scuba diving, taking pictures.")
+const personLikes = ({name, age, likes, signo = "áries"}) => `${name} is ${age} years old and likes ${likes.join(", ")}. He is also ${signo}`
+console.log(personLikes(alex))
+// assert.equal(personLikes(alex), "Alex is 26 years old and likes fly fishing.")
+// assert.equal(personLikes(gunnar), "Gunnar is 30 years old and likes hiking, scuba diving, taking pictures.")
