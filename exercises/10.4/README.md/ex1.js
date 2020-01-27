@@ -1,13 +1,5 @@
-const functions = {
-  soma: (a, b) => a + b,
-  createUser: () => {
-    const obj1 = {
-      name : 'Lucas'
-    }
-    obj1['lastName'] = 'Werner'
-    return obj1
-  }
- 
+const uppercase = (str, callback) => {
+  callback(str.toUpperCase());
 }
-
-module.exports = functions
+    
+module.exports = uppercase;
