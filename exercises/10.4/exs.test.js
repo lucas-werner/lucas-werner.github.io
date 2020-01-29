@@ -1,9 +1,11 @@
 const uppercase = require('./ex1')
 
 describe('exercício 1', () => {
-  test('vertificar callback está sendo chamada', () => {
-    const callback = jest.fn()
-    uppercase('lucas', callback)
-    expect(callback).toHaveBeenCalled()
-  })
-});
+  test('verificar callback está sendo chamada', done => {
+    uppercase('lucas', callback => {
+      expect(callback).toBe('LUCAS');
+      done();
+    })
+  }
+  )
+})
