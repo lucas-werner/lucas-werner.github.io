@@ -1,9 +1,10 @@
 import React from 'react';
-import data 
+
 
 class Pokemon extends React.Component {
   render() {
-    return
+    const { name, type, averageWeight, image } = this.props.pokemon
+    return 
   }
 }
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import pokemon from './pokemon';
+import Pokemon from './pokemon';
 
 
 
