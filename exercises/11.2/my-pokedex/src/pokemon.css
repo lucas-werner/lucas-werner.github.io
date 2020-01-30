@@ -1,1 +1,7 @@
-.Pokemon 
+.pokemon-container {
+  display: flex;
+} 
+
+.pokemon {
+  display: flex;
+}
