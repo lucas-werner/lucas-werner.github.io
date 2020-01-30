@@ -9,7 +9,9 @@ function App() {
   <div className="App">
     <h1>Pokedex!</h1>
     <Pokedex pokemons={pokemons} />
+  
   </div>
+  
   )
 }
 

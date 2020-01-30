@@ -1,7 +1,16 @@
 .pokemon-container {
+  
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 } 
 
 .pokemon {
-  display: flex;
+  width: ;
+   
+  
+}
+
+.pokemongif {
+  float: right;
 }
