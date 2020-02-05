@@ -39,7 +39,8 @@ class Pokedex extends React.Component {
     const filteredPokemons = this.fetchFilteredPokemons();
     const pokemonTypes = this.fetchPokemonTypes();
     const pokemon = filteredPokemons[this.state.pokemonIndex];
-
+    console.log(pokemonTypes)
+    console.log(pokemon)
     return (
       <div className="pokedex">
         <Pokemon pokemon={pokemon} />
