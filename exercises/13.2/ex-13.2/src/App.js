@@ -33,7 +33,15 @@ class Content extends React.Component {
   componentDidUpdate(){
     alert('atualizou papito')
   }
-  
+
+  componentDidMount(){
+    alert('carregou')
+  }
+
+  componentWillUnmount(){
+  localStorage.setItem('foi desmontado', 'sim');
+  }
+
 
 
 
