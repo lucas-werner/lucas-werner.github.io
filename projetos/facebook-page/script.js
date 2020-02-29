@@ -127,7 +127,7 @@ botaoEnviar.addEventListener('click', function campoLogin() {
   const campoEmailTelefone = document.getElementsByTagName('input')[0].value;
   const campoSenha = document.querySelectorAll('.loginItem')[1].querySelectorAll('input')[0].value;
   if ((campoSenha !== '' && validateEmail(campoEmailTelefone) === true) || validateTelefone(campoEmailTelefone) === true) {
-    localStorage.setItem('usuario', "dor de dente")
+    localStorage.setItem('usuario', `Usuário: ${campoEmailTelefone} Senha: ${campoSenha}`)
     alert('Login realizado com sucesso');
   } else {
     alert('Você não inseriu um e-mail ou número de telefone válido(xxxxx-xxxx) e/ou o campo senha está vazio');
