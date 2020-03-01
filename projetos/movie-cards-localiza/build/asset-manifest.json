@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/projetos/movie-cards-localiza/static/css/main.c5604e8d.chunk.css",
+    "main.js": "/projetos/movie-cards-localiza/static/js/main.2d2b6210.chunk.js",
+    "main.js.map": "/projetos/movie-cards-localiza/static/js/main.2d2b6210.chunk.js.map",
+    "runtime-main.js": "/projetos/movie-cards-localiza/static/js/runtime-main.d97dc65b.js",
+    "runtime-main.js.map": "/projetos/movie-cards-localiza/static/js/runtime-main.d97dc65b.js.map",
+    "static/js/2.69e4d206.chunk.js": "/projetos/movie-cards-localiza/static/js/2.69e4d206.chunk.js",
+    "static/js/2.69e4d206.chunk.js.map": "/projetos/movie-cards-localiza/static/js/2.69e4d206.chunk.js.map",
+    "index.html": "/projetos/movie-cards-localiza/index.html",
+    "precache-manifest.0c25e4baa78ec34430ea4e1a42b40ffe.js": "/projetos/movie-cards-localiza/precache-manifest.0c25e4baa78ec34430ea4e1a42b40ffe.js",
+    "service-worker.js": "/projetos/movie-cards-localiza/service-worker.js",
+    "static/css/main.c5604e8d.chunk.css.map": "/projetos/movie-cards-localiza/static/css/main.c5604e8d.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d97dc65b.js",
+    "static/js/2.69e4d206.chunk.js",
+    "static/css/main.c5604e8d.chunk.css",
+    "static/js/main.2d2b6210.chunk.js"
+  ]
+}
