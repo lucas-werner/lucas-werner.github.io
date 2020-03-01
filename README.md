@@ -1,5 +1,7 @@
-<h3> Lucas Werner <h3>
+<h3> Olá, sou Lucas Werner <h3>
 
-<h4> Este é meu repositório de exercícios e projetos da Trybe <h4>
+<h4> Seja bem vindo(a)! <h4>
+  
+<h3> Este é meu repositório de projetos <h3>
 
 
