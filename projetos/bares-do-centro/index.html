@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- entregável -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Um rolê pelo centro</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" media="all">
+    <link rel="stylesheet" type="text/css" href="import.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: Montserrat, sans-serif;
+            background-repeat: repeat;
+            background-size: cover;
+            height: 200px;
+            background-color: antiquewhite;
+                    }
+        
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        
+        .navbar h2 {
+            color: #f2f2f2;
+            margin-left: 15px;
+        }
+        
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        .navbar a:hover {
+            background: #ddd;
+            color: gray;
+        }
+        
+        .main-title {
+            margin-top: 80px;
+            padding: 10px;
+        }
+        
+        .intro-content {
+            margin-top: 0px;
+            padding: 10px;
+        }
+        
+        .picture {
+            border-radius: 30%;
+        }
+        
+        .main-article {
+            padding: 10px;
+        }
+        
+        .lista-bares {
+          margin-left: 15px;
+        }
+        
+        .student-container {
+            width: 30%;
+            margin: 0 10px;
+            text-align: center;
+            display: inline-block;
+        }
+        
+        .student-container p {
+            margin: 10px 0;
+        }
+        
+        #student-testimonial {
+            padding: 0em 30px 6em;
+        }
+        
+        #student-testimonial-wrapper {
+            margin: auto;
+            width: 80%;
+        }
+        
+        .titulo-central {
+            text-align: center;
+            padding: 30px;
+        }
+        
+        #depoimentos,
+        #tabela-preços {
+            padding: 15px;
+        }
+        
+        #banzai-container {
+            width: 60%;
+            float: right;
+            margin-right: 15%;
+            padding: 10px;
+        }
+        
+        #banzai-img {
+            width: 30%;
+            padding: 10px;
+        }
+        
+        #maletta-container {
+            width: 40%;
+            float: right;
+            margin-right: 25%;
+            padding: 10px;
+        }
+        
+        #maletta-img {
+            width: 30%;
+            padding: 10px;
+        }
+        
+        #cultura-container {
+            width: 40%;
+            float: right;
+            margin-right: 25%;
+            padding: 10px;
+        }
+        
+        #cultura-img {
+            width: 30%;
+            padding: 10px;
+        }
+        
+        footer {
+            background-color: gray;
+            margin-top: 5px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <section class="header-content">
+            <h1 class="main-title">Rolê Show: os melhores bares do centro de BH
+            </h1>
+            <div class="intro-content">
+            <p>Estamos cansados de escutar que BH é uma <em>roça
+             grande</em> e que a nossa praia é o <strong>BAR</strong>.
+                <br> Sejamos sinceros: <a
+                href="https://bhaz.com.br/2017/10/29/bh-bares-belo-horizonte-estudo/"
+                target="_blank" rel="site BHZ">acharam
+            certo.</a>
+                <br> Para viver o melhor que o centro é capaz de oferecer, fizemos o guia <strong>Rolê Show: os melhores bares do centro de BH</strong>.
+                <br> Completo, reunimos aqui apenas os (melhores) bares do
+                centro: nada de Savassi, Lourdes e Buritis. <br>
+                Aliás, as melhores regiões para beber são (do melhor para o pior):<br>
+                <br>
+                <div class="lista-bares">
+                <ol id="lista-bares" type="1">
+                  <li> Centro </li>
+                  <li> Zona Leste</li>
+                  <li> Centro-sul</li>
+                  <li> Barreiro</li>
+                  <li> Pampulha</li>
+                  <li> Zona Oeste</li>
+                </ol>
+                </div>
+                <br>
+                <strong> Enfim, aqui o negócio é cerveja 
+            barata, prosa boa e gente como a gente! </strong>
+            </p>
+          </div>
+
+        </section>
+        <section class="navbar">
+            <nav class="summary-content">
+                <h2>Rolê Show: os melhores bares do centro de BH </h2>
+                <a href="#bar-banzai">Bar Banzai</a>
+                <a href="#maletta">Maletta </a>
+                <a href="#bar-do-cafe">Café Cultura</a>
+                <a href="#tabela-bares"> Preços e reviews</a>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <article class="main-article">
+
+        <section id="banzai">
+            <h2 id="banzai-title">1. Bar Banzai</h2>
+            <div id="banzai-container">
+                <p>Provavelmente, o melhor bar do centro de Belo Horizonte. O Banzai não ganha nessa ou naquela qualidade específica, mas possui as virtudes do bar que nunca decepciona. Sempre tem espaço, mesmo quando cheio, sempre está aberto, até na madrugada da segunda-feira, e (quase) sempre sai barato, ainda que se exagere na cerveja. Tem um atributo não muito valorizado, mas fundamental quando se está em Minas Gerais: o seu terreno plano, pouquíssimo acidentado. A cachaça é bem servida e o público é plural. Acomoda trabalhadores e universitários, patricinhas e tilelês, velhos e crianças, e qualquer um que não se escandalize com os insetos que convivem com a boemia do vestíbulo do centro da cidade. É uma opção para tantas as noites quantas funciona o bar, que, por mais previsível que seja, sempre guarda uma surpresa.
+                </p>
+                <br>
+                <ul>
+                    <li> <strong>Endereço:</strong> R. Padre Belchior, 550 - Centro</li>
+                    <li> <strong>Preço:</strong> $ </li>
+                    <li> <strong>Avaliação:</strong> 9.5/10</li>
+                </ul>
+            </div>
+            <div id="banzai-img">
+                <img class="picture" src="img/bar-banzai.jpg" alt="Foto bar Banzai" width="250px">
+            </div>
+        </section>
+
+        <section id="maletta">
+            <h2 id="maletta-title">2. Maletta</h2>
+            <div id="maletta-container">
+                <p>Tradicional edifício-galeria no Centro da cidade famoso pelos
+                bares e sebos. Conhecido como centro da boemia na capital,
+                encontra-se livrarias e lojas de discos antigos durante o dia e
+                à noite torna-se local de encontros de Couchsurfers e jovens nos
+                bares modernos do segundo piso. No entanto, há muito tempo já teve
+                seu charme. Caro. Certamente o mais
+                gentrificado. Não pode fumar.
+                </p>
+                <br>
+                <ul>
+                    <li> <strong>Endereço:</strong> R. da Bahia, 1148 - Centro</li>
+                    <li> <strong>Preço:</strong> $$ </li>
+                    <li> <strong>Avaliação:</strong> 6,5/10</li>
+                </ul>
+            </div>
+            <div id="maletta-img">
+                <img class="picture" src="img/maletta.jpg" alt="Foto do Maletta" width="350px">
+            </div>
+
+        </section>
+
+        <section id="cafe-cultura">
+            <h2 id="cultura-title">3. Café Cultura</h2>
+            <div id="cultura-container">
+                <p>Ao que parece, mais um bar de rua em BH. Não se engane! Vá conferir, pode virar uma das suas opções prediletas na capital mineira. Excelente seleção musical, mesas na calçada, atendimento excepcional, boa localização e petiscos bem preparados, apresentados e em porções generosas.
+
+                </p>
+                <br>
+                <ul>
+                    <li> <strong>Endereço:</strong> R. da Bahia, 1416 - Centro</li>
+                    <li> <strong>Preço:</strong> $$$ </li>
+                    <li> <strong>Avaliação:</strong> 7/10</li>
+                </ul>
+            </div>
+            <div id="cultura-img">
+                <img class="picture" src="img/Cafe.jpg" alt="foto do café cultura" width="400px">
+            </div>
+
+        </section>
+
+        <section id="tabela-bares">
+            <h2 class="titulo-central"> Ainda indeciso? Simplificamos!</h2>
+            <div id="tabela-preços">
+                <div class="comparison">
+
+                    <table>
+                        <thead>
+                            <tr id="headers">
+                                <th class="tl tl2"></th>
+                                <th class="qbse">
+                                    BANZAI
+                                </th>
+                                <th colspan="3" class="qbo">
+                                    OUTROS
+                                </th>
+                            </tr>
+                            <tr>
+                                <th class="tl"></th>
+                                <th class="compare-heading">
+                                    Banzai
+                                </th>
+                                <th class="compare-heading">
+                                    Rei do Pastel
+                                </th>
+                                <th class="compare-heading">
+                                    Café Cultura
+                                </th>
+                                <th class="compare-heading">
+                                    Maletta
+                                </th>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <th class="price-info">
+                                    <div class="price-now"><span>R$6<span class="price-small">.00</span></span> /cerveja</div>
+
+                                </th>
+                                <th class="price-info">
+                                    <div class="price-now"><span>R$9<span class="price-small">.00</span></span> /cerveja</div>
+                                </th>
+                                <th class="price-info">
+                                    <div class="price-now"><span>R$8<span class="price-small">.50</span></span> /cerveja</div>
+                                </th>
+                                <th class="price-info">
+                                    <div class="price-now"><span>R$9<span class="price-small">.00</span></span> /cerveja</div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td colspan="4">Vendedores ambulantes</td>
+                            </tr>
+                            <tr>
+                                <td>Vendedores ambulantes</td>
+                                <td><span class="tickblue">✔</span></td>
+                                <td><span class="tickblue">✔</span></td>
+                                <td><span class="tickblue">✔</span></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td colspan="4">Insetos suspeitos</td>
+                            </tr>
+                            <tr class="compare-row">
+                                <td>Insetos suspeitos</td>
+                                <td><span class="tickblue">✔</span></td>
+                                <td><span class="tickblue">✔</span></td>
+                                <td><span class="tickblue">✔</span></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td colspan="4">Permitido Fumar</td>
+                            </tr>
+                            <tr>
+                                <td>Permitido Fumar</td>
+                                <td><span class="tickblue">✔</span></td>
+                                <td><span class="tickblue">✔</span></td>
+                                <td><span class="tickblue">✔</span></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td colspan="4">Cobra 10%</td>
+                            </tr>
+                            <tr class="compare-row">
+                                <td>Cobra 10%</td>
+                                <td></td>
+                                <td><span class="tickblue">✔</span></td>
+                                <td><span class="tickblue">✔</span></td>
+                                <td><span class="tickblue">✔</span></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td colspan="4">Aberto 24hs</td>
+                            </tr>
+                            <tr>
+                                <td>Aberto 24hs</td>
+                                <td><span class="tickblue">✔</span></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td colspan="4">Música ambiente</td>
+                            </tr>
+                            <tr class="compare-row">
+                                <td>Música ambiente</td>
+                                <td></td>
+                                <td></td>
+                                <td><span class="tickblue">✔</span></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="depoimentos">
+
+                <h3 class="titulo-central">A voz do povo</h3>
+
+                <div id="student-testimonial">
+                    <div id="student-testimonial-wrapper">
+                        <div class="student-container">
+                            <img class="picture" src="./img/lucas-martins.jpeg" alt="Foto de Lucas Martins" width="100px">
+                            <p>
+                                <em>"Café cultura bar é melhor opção de bar no centro de BH se você não curte copo sujo. O local é agradável, bem decorado e tem uma excelente playlist (tocam rock, mpb e samba, nada couver!!) Único defeito é que a cozinha fecha cedo (cerca de 11h da noite). O preço é a média de preços da savassi"</em>
+                                <br>
+                            </p>
+                            <h4 class="letra-quali">
+                  <strong>Lucas Martins</strong> <br>
+                  Morador do Centro
+                  ‍
+                </h4>
+                        </div>
+                        <div class="student-container">
+
+                            <img class="picture" src="./img/lucas-albuquerque.jpeg" alt="Foto de Lucas Albuquerque" width="100px">
+                            <p> <em>"O Maletta... imagino que há muito tempo já teve
+                            seu charme. Caro. Certamente o mais
+                            gentrificado. Não pode fumar. Não
+                            gosto..."</em>
+                                <br>
+                            </p>
+                            <h4 class="letra-quali">
+                                      <strong>Lucas Albuquerque</strong> <br>
+                                      ‍                                  Advogado  </h4>
+                        </div>
+                        <div class="student-container">
+                            <img class="picture" src="./img/Joao-rosa.jpeg" alt="Foto de
+                                      João Rosa" width="100px">
+                            <p>
+                                <em>"Barato, muita mesa, plano, agradabilíssimo. Tem até garotas de vez
+                                            em quando. Certamente é o melhor bar de Belo Horizonte. Às vezes rola
+                                            até barraco. A comida é arriscada. Fica lotado algumas vezes. Banheiro
+                                            magnífico. Isso é o Banzai."</em>
+                                <br>
+                            </p>
+                            <h4 class="letra-quali">
+                                        <strong>João Rosa</strong> <br>
+                                        Cliente do Banzai
+
+                                      </h4>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </article>
+
+    <footer id="autor">
+        <p>Conteúdo compilado por <a
+        href="https://github.com/lucas-werner/lucas-werner.github.io" target="_blank">Lucas
+        Werner.</a></p>
+
+    </footer>
+</body>
+</html>target="_blank"
