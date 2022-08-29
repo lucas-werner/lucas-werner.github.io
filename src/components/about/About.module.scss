@@ -1,0 +1,112 @@
+@import "../../variables.modules";
+
+.container {
+  height: 80vh;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.intro, .logo {
+  left: 50%;
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  z-index: 4;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 18rem;
+  // opacity: 1;
+  font-family: 'StarWarsPerfect';
+  text-shadow: 4px 2px 0px #ffe81f, -1px 2px 0px #ffe81f, 0px -1px 0px #ffe81f;
+  letter-spacing: 7px;
+  // letter-spacing: 2px;
+  line-height: 0.8;
+  flex-direction: column;
+  font-size: 4.0rem;
+  // color: #FFE81F;
+  color: #1f1f1f;
+}
+// display={'flex'} justifyContent={'flex-end'} mr={2} mt={2}
+.controllersAnimation {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
+.controllersBtn {
+  color: white;
+  opacity: 0.4;
+  z-index: 5;
+}
+
+.intro p {
+  color: rgb(75, 213, 238);
+  font-size: 1.25rem;
+}
+
+.btnStart {
+  z-index: 5;
+  position: absolute;
+  top: '50%';
+  left: '50%';
+  z-index: 5;
+}
+
+/* helps fade the text out as it recedes back in space */
+.container:before {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 100%);
+  bottom: 0;
+  content: " ";
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.crawl {
+  font-size: 300%;
+  bottom: 0;
+  height: 80rem;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%) perspective(300px) rotateX(28deg);
+  transform-origin: 50% 100%;
+  width: 90%;
+  color: #ffe81f;
+}
+
+.content {
+  position: absolute;
+  top: 100%;
+  overflow: hidden;
+}
+
+.title {
+  font-weight: 600;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.subtitle {
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 250%;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 7rem;
+  transform: scale(1, 1.5);
+  text-align: center;
+}
+.content p {
+  font-weight: 700;
+  line-height: 1.33;
+  margin-bottom: 4rem;
+  text-align: justify;
+}
