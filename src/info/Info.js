@@ -2,7 +2,7 @@ import self from '../img/self.png';
 import mock1 from '../img/mock1.png';
 import mock2 from '../img/mock2.png';
 import mock3 from '../img/mock3.png';
-//import mock4 from '../img/mock4.png';
+import mock4 from '../img/mock4.png';
 //import mock5 from '../img/mock5.png';
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
@@ -127,12 +127,12 @@ export const info = {
       source: 'https://github.com/lucas-werner/jennie-and-the-jets',
       image: mock3,
     },
-    //{
-    //    title: "Digital Talents Localiza - React CRUD + Router",
-    //    live: "https://lucas-werner.github.io/talentos-digitais-localiza/",
-    //    source: "https://github.com/lucas-werner/talentos-digitais-localiza",
-    //    image: mock4
-    //},
+    {
+      title: 'E-Commerce App - REST API',
+      live: 'https://lucas-werner.github.io/e-commerce-app/',
+      source: 'https://github.com/lucas-werner/e-commerce-app',
+      image: mock4,
+    },
     //{
     //    title: "Project 5",
     //    live: "https://paytonpierce.dev",
