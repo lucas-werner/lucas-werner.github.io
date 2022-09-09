@@ -1,6 +1,7 @@
 {
-  "name": "portfolioTemplate",
+  "name": "lucas portfolio",
   "version": "2.0.0",
+  "homepage": "https://lucas-werner.github.io",  
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
@@ -24,11 +25,13 @@
     "react-scripts": "^5.0.1",
     "react-tags-canvas": "^1.0.1",
     "react-tsparticles": "^2.1.3",
-    "tsparticles": "^2.1.3",
     "sass": "^1.54.5",
+    "tsparticles": "^2.1.3",
     "typescript": "^4.7.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -48,5 +51,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
